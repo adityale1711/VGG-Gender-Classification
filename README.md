@@ -57,4 +57,4 @@ python .\predictions.py
 4. Insert image
 5. Results
 
-   (https://github.com/adityale1711/VGG-Gender-Classification/blob/main/results/Screenshot%202024-03-22%20023003.png)
+   ![Results](https://github.com/adityale1711/VGG-Gender-Classification/blob/main/results/Screenshot%202024-03-22%20023003.png)

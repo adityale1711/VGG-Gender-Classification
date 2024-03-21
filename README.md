@@ -39,3 +39,22 @@ Gender classification is a common task in computer vision, with applications ran
 - Train the model using hyperparameter tuning techniques such as Hyperband, Random Search, or Bayesian Optimization.
 - Evaluate the model performance and fine-tune as necessary.
 - Use the trained model for gender classification on new images.
+
+Example Usage:
+
+1. Training Model
+
+```bash
+python .\train_model.py --model_type vgg16 --tuner hyperband --batch_size 32 --epochs 100
+```
+2. Test Prediction
+
+```bash
+python .\predictions.py
+```
+
+3. Insert model file or write model path into model_path variable
+4. Insert image
+5. Results
+
+   (https://github.com/adityale1711/VGG-Gender-Classification/blob/main/results/Screenshot 2024-03-22 023003.png)
